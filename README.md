@@ -42,3 +42,40 @@ El entorno virtual es completamente reproducible gracias al archivo **environmen
 ```bash
 git clone https://github.com/tu_usuario/PIA-IA-Sleep-Regression.git
 cd PIA-IA-Sleep-Regression
+Ejecución del Proyecto
+
+Desde la carpeta raíz del repositorio, ejecutar:
+
+python pia_regresion.py
+
+
+El script realizará automáticamente:
+
+Exploración del dataset (Entorno 1).
+
+Preprocesamiento completo (Entorno 2).
+
+Entrenamiento del modelo y evaluación de métricas (Entorno 3).
+
+Se generará una gráfica de dispersión que compara valores reales vs predichos
+de la Calidad del Sueño y se imprimirán las métricas:
+
+MSE
+
+MAE
+
+R²
+
+🧪 Resultados Principales
+Métrica	Valor
+MSE	0.0653
+MAE	0.0774
+R²	0.9583
+
+El modelo logra explicar aproximadamente 95.83% de la variabilidad en la calidad del sueño, mostrando un excelente desempeño predictivo.
+
+📚 Conclusiones
+
+Este sistema demuestra la aplicación práctica del aprendizaje supervisado a través de la regresión lineal, cubriendo todas las etapas del preprocesamiento y modelado. Los resultados obtenidos confirman que las variables de estilo de vida y salud tienen una relación significativa con la calidad del sueño.
+
+El flujo implementado puede adaptarse fácilmente a otros datasets y otros tipos de modelos supervisados (regresión polinomial, árboles, SVM, etc.).
